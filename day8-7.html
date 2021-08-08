@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+           card
+        </title>
+        <style>
+            *{
+            margin-left: 25px;
+            margin-right: 25px;
+            }
+            .outside{
+                border: 5px solid black;
+            }
+            .whole{
+            border-top: 2px solid black;
+         }
+        </style>
+    </head>
+    <body>
+        <div class="outside">
+        <div style="background-color: orangered;color: white;">
+            <h1 style="margin: 10px;text-align: center;">Yes! I want to subscribe to<i>Mag-O-Zine</i></h1>
+        </div>
+        <table style="width: 100%;">
+            <tr>
+               <td>
+                  <div style="padding-top:40px ;">
+                    <div class="whole">First Name</div>
+                  </div>
+              </td>
+              <td>
+                  <div style="padding-top:40px ;">
+                     <div class="whole">Last Name</div>
+                 </div>
+             </td>
+         </tr>
+         <tr>
+             <td colspan="3">
+                 <div  style="padding-top:40px ;">
+                   <div class="whole">Address</div>
+                 </div>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 <div style="padding-top:40px ;">
+                    <div class="whole">City</div>
+                  </div>
+             </td>
+             <td>
+                 <div style="padding-top:40px ;">
+                    <div class="whole">State</div>
+                  </div>
+             </td>
+             <td>
+                 <div style="padding-top:40px ;">
+                    <div class="whole">Zip</div>
+                  </div>
+             </td>
+         </tr>
+       </table>
+       <div style="padding-left: 21px;">
+       <h3>Subscribe for:
+            <input type="checkbox" id="1" name="sfor">
+            <label for="1" style="padding-right: 40px; ">1 year($19.95)</label>
+            <input type="checkbox" id="2" name="sfor">
+            <label for="2">2 years($35.00)</label>
+       </h3>
+       <h3>
+           Send me more information about:<br>
+           <input type="checkbox" id="comp" name="ia">
+           <label for="comp">Computer-Zine</label><br>
+           <input type="checkbox" id="fishing" name="ia">
+           <label for="fishing">Fishing-Zine</label><br>
+           <input type="checkbox" id="cat" name="ia">
+           <label for="cat">Cat-Zine</label>
+       </h3>
+       </div>
+       </div>
+    </body>
+</html>
